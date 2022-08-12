@@ -2,7 +2,17 @@
     width: 300px;
     /*     object-fit: contain; object-fit:cover; /*This chooses what to do in case the w and h has been meet
     object-position: left; shows which part of the image to display if to big */
+    display: block;
 }
 .search-bar{
     font-size: 20px;
+    margin-bottom: 20px;
 }
+.title{
+}
+/* .maker{
+    display: inline-block;
+}
+.view{
+    display: inline-block;
+} */

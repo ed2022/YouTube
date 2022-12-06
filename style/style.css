@@ -7,6 +7,7 @@
     /*     object-fit: contain; object-fit:cover; /*This chooses what to do in case the w and h has been meet
     object-position: left; shows which part of the image to display if to big */
     display: block;
+    object-fit:contain;
 }
 div{
    max-width: 300px;
@@ -15,9 +16,12 @@ div{
    vertical-align: top;
    margin-left: 15px;
 }
-/* .maker{
+.profile-pic{
     display: inline-block;
+    width: 50px;
+    border-radius: 100px ;
 }
-.view{
+.text{
     display: inline-block;
-} */
+    width: 200px;
+}

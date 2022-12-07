@@ -27,3 +27,26 @@ header img{
 }
 
 /* Video Main Containers */
+.video_card{
+    max-width: 300px;
+    border: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+.thumbnail{
+    width: 300px;
+    /*     object-fit: contain; object-fit:cover; /*This chooses what to do in case the w and h has been meet
+    object-position: left; shows which part of the image to display if to big */
+    display: block;
+    object-fit:contain;
+}
+.actual_text{
+    display: inline-block;
+    width: 200px;
+}
+.profile{
+    display: inline-block;
+    width: 50px;
+    border-radius: 100px ;
+}

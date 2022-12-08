@@ -27,6 +27,16 @@ header img{
 }
 
 /* Video Main Containers */
+main{
+    display: inline-block;
+}
+.video_container{
+    display: inline-block;
+}
+.side_menu_container{ 
+    display: inline-block;
+ }
+/* main video box */
 .video_card{
     max-width: 300px;
     border: black;
@@ -41,9 +51,22 @@ header img{
     display: block;
     object-fit:contain;
 }
+.description{
+    margin: 20px 0px;
+}
+.creator_pic{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
 .actual_text{
     display: inline-block;
-    width: 200px;
+    width: 225px;
+    vertical-align: top;
+}
+.actual_text p {
+    margin-top: 5px;
+    margin-left: 10px;
 }
 .profile{
     display: inline-block;

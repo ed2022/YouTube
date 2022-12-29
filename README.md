@@ -23,4 +23,5 @@ Open in live server on local device or follow the link below.
 - General Questions on Stack Overflow
 
 ## Links 
+- Deployment Link: https://ed2022.github.io/YouTube/
 - GitHub repositor: https://github.com/ed2022/YouTube

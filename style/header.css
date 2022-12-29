@@ -1,6 +1,6 @@
 /* HEADER */
 .header {
-    height: 70px; 
+    height: 60px; 
     position: fixed;
     top: 0px; 
     left:0px;
@@ -54,9 +54,26 @@
     height: 40px;
     width: 66px;
     background-color: rgb(240, 240, 240);
-    border: solid   rgb(192,192,192) 1px;
+    border: solid  rgb(192,192,192) 1px;
     margin-left: -1px; /* This pulls the elements together.*/
     margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.search-btn .tooltip{
+    position: absolute;
+    background-color: rgba(128, 128, 128);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px; 
+    bottom: -50px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.search-btn:hover .tooltip{
+    opacity: 1;
 }
 .search-img{
     height: 25px;
@@ -68,6 +85,29 @@
     border: none;
     background-color:  rgb(245,245,245);
     border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mic-btn .tooltip{
+    position: absolute;
+    background-color: rgba(128, 128, 128);
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 12px; 
+    bottom: -50px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+
+
+}
+.mic-btn:hover .tooltip{
+    opacity: 1;
 }
 .mic-img{
     height: 25px;
@@ -85,10 +125,45 @@
 .upload-img, .app-img, .notifications-img{
     height: 24px;
 }
-.notifications-img{
-    
+.upload-container, .app-container, .notifications-container{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload-container .tooltip, .app-container .tooltip, .notifications-container .tooltip{
+    position: absolute;
+    background-color: rgba(128, 128, 128);
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 12px; 
+    bottom: -50px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.upload-container:hover .tooltip, .app-container:hover .tooltip, .notifications-container:hover .tooltip{
+    opacity: 1;
 }
 .profile-img{
     height: 32px;
     border-radius: 16px;
+}
+.notifications-container{
+    position: relative;
+}
+.notifications-num{
+    background-color: rgb(219, 2, 2);
+    border: solid white 2px;
+    color:white; 
+    font-size: 10px;
+    font-family: roboto, Arial;
+    padding: 2px 5.5px;
+    border-radius: 20px; 
+    position: absolute;
+    top: -5px;
+    right: -7px;
 }

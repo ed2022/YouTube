@@ -1,0 +1,57 @@
+/* MAIN BODY */
+.video_container{
+    position: fixed;
+    left: 70px;
+    top: 75px;
+}
+.video_card{
+    max-width: 300px;
+    border: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+.thumbnail{
+    width: 300px;
+    /*     object-fit: contain; object-fit:cover; /*This chooses what to do in case the w and h has been meet
+    object-position: left; shows which part of the image to display if to big */
+    display: block;
+    object-fit:contain;
+}
+.description{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.creator_pic{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.actual_text{
+    display: inline-block;
+    width: 225px;
+    vertical-align: top;
+}
+.actual_text p {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.profile{
+    display: inline-block;
+    width: 50px;
+    border-radius: 100px ;
+}
+.title{
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 12px;
+}
+.maker, .view{
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+.maker{
+    margin-bottom: 4px;
+}
+

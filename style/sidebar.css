@@ -1,0 +1,22 @@
+/* SIDE BAR */
+.side_menu_container{
+    width: 75px;
+    background-color: white;
+    position: fixed;
+    top: 70px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 5px;
+}
+.icon_container{
+    font-size: 10px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon{
+    height: 20px;
+}

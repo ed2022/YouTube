@@ -1,17 +1,20 @@
 /* HEADER */
 .header {
     height: 60px; 
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     position: fixed;
     top: 0px; 
     left:0px;
     right:0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
     align-items: center;
     border-bottom: solid rgba(210, 210, 210, 0.524);
     z-index: 100;
-    margin-bottom: 20px;
 }
 /* LEFT SECTION */
 .left-section{

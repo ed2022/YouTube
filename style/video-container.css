@@ -1,36 +1,38 @@
 /* MAIN BODY */
 .video-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 8px;
-    row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4px;
+    row-gap: 8px;
 
     position: relative;
     left: 60px;
-    top: 75px;
+    top: 60px;
     right: 0;
     padding: 20px;
 
     border: solid 3px red;
 }
+/* VIDEO CARD STYLES */
 .video-card{
     max-width: 300px;
-    border: black;
+    border: solid black;
     display: inline-block; 
     vertical-align: top;
     padding: 4px; 
     margin-left: 15px; 
 }
-.thumbnail{
+/* TOP HALF (Video-Img) */
+.thumbnail-img-container{
+    position: relative;
+}
+.thumbnail-img{
     width: 300px;
     /*     object-fit: contain; object-fit:cover; /*This chooses what to do in case the w and h has been meet
     object-position: left; shows which part of the image to display if to big */
     display: block;
     object-fit:contain;
     border-radius: 10px;
-}
-.tumbnail-img-container{
-    position: relative;
 }
 .time{
     position: absolute;
@@ -43,34 +45,33 @@
     bottom: 7px; 
     right: 4px;
 }
+/* BOTTOM HALF DESCRIPTION */
 .description{
-    margin: 20px 0px;
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 48px 1fr;
 }
-.creator-pic{
-    display: inline-block;
+/* LEFT SIDE */
+.creator-pic-container{
     vertical-align: top;
+    border-radius: 36px;
     margin-top: 12px;
 }
+.creator-pic{
+    display: inline-block; 
+    width: 100%;
+    
+    border-radius: 100px ;
+}
+/* RIGHT SIDE */
 .actual-text{
-    display: inline-block;
+    display: block;
     width: 225px;
     vertical-align: top;
-}
-.actual-text p {
-    margin-top: 0px;
-    margin-left: 10px;
-}
-.profile{
-    display: inline-block; 
-    width: 50px;
-    border-radius: 100px ;
 }
 .title{
     color: black;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 14px;
     margin-bottom: 15px;
     overflow: hidden;

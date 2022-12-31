@@ -153,7 +153,7 @@
 .upload-container:hover .tooltip, .app-container:hover .tooltip, .notifications-container:hover .tooltip{
     opacity: 1;
 }
-.profile-img{
+.myprofile-img{
     height: 32px;
     border-radius: 16px;
 }

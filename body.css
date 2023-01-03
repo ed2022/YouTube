@@ -1,0 +1,78 @@
+/* GENERAL RULES */
+p{
+    margin-top: 0;
+    margin-bottom:16px; 
+}
+body{
+    margin: 0; 
+    font-family: Roboto, Arial;
+    background-color: white;
+    padding-top: 20px;
+}
+/* MAIN BODY */
+.video-container{
+    
+}
+/* VIDEO CARD STYLES */
+.video-card{
+    border: solid 2px;
+    display: inline-block
+}
+
+/* TOP HALF (Video-Img) */
+.thumbnail-img-container{
+    display: inline-block;
+    position: relative;
+}   
+.thumbnail-img{
+    width: 100%; 
+    border-radius: 20px;
+}
+.time{
+    background-color: black;
+    color: white;
+    border-radius: 2px ;
+    font-size: 14px;
+    font-weight:500;
+    padding: 6px 8px;
+
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+}
+/* BOTTOM HALF DESCRIPTION */
+.description{
+    display: flex;
+}
+/* LEFT SIDE */
+.creator-pic-container{
+    display: inline-block;
+
+}
+.creator-pic{
+    vertical-align: top;
+}
+/* RIGHT SIDE */
+.actual-text{
+    display: inline-block;
+    margin-left: 10px;
+}
+.title{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%; 
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.maker, .view{
+    font-size: 12px;
+    color: #606060 
+}
+.maker{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.view{
+
+}
